@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "https://pan.bilnn.com/api/v3/file/sourcejump/aezb3PTl/XMad20VuT6PAeLSH5seQKZZLG9MEtgv9oJhOpXUBFjc*");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
